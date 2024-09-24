@@ -1,0 +1,67 @@
+.todoContainer {
+  list-style: none;
+  margin: 50px auto;
+  font-size: 18px;
+  border: 1px solid rgb(197, 172, 172);
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todoContainer span {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333;
+  flex-grow: 1;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.todoButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.editBtn,
+.deleteTodoBtn,
+.backToPreviousPageBtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 16px;
+}
+
+.editBtn:hover,
+.deleteTodoBtn:hover,
+.backToPreviousPageBtn:hover {
+  background-color: #0056b3;
+}
+
+.backToPreviousPageBtn {
+  background-color: #6c757d;
+}
+
+.backToPreviousPageBtn:hover {
+  background-color: #5a6268;
+}
+
+.deleteTodoBtn {
+  background-color: #dc3545;
+}
+
+.deleteTodoBtn:hover {
+  background-color: #c82333;
+}
